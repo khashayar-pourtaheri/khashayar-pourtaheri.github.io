@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Work and teaching experience of Khashayar Pourtaheri.">
+    <title>Experience | Khashayar Pourtaheri</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="index.html">Khashayar Pourtaheri</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a class="active" href="experience.html" aria-current="page">Experience</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </header>
+
+    <main class="page narrow-page">
+      <p class="eyebrow">Experience</p>
+      <h1>Experience</h1>
+
+      <section class="experience-section" aria-labelledby="work-heading">
+        <h2 id="work-heading">Work Experience</h2>
+        <article class="entry">
+          <div class="entry-head">
+            <h3>Research Economist <span class="entry-org">— Adolescent Mental Health Study, CHOICE Institute, University of Washington</span></h3>
+            <p class="entry-dates">Sep 2026 – Present</p>
+          </div>
+          <p class="paper-meta">Supervisor: <a href="https://sop.washington.edu/people/noemi-kreif/" target="_blank" rel="noopener noreferrer">Noémi Kreif</a></p>
+          <ul class="entry-points">
+            <li>Evaluate the causal design and outcome measurement for a study of how adolescent depression affects adult hours, participation, earnings, and education, using restricted-use Add Health data and survey-weighted, cross-fitted TMLE.</li>
+            <li>Audited the R estimation pipeline and outcome coding, documenting identification threats and coding errors and proposing diagnostics and sensitivity analyses (E-values, MNAR).</li>
+            <li>Translated treatment effects into labor-supply elasticities for downstream ROI models, and re-estimated 17 NLSY97 outcomes with cross-fitted AIPW as a public-data benchmark.</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-head">
+            <h3>Data Scientist Researcher <span class="entry-org">— HIV Subnational Estimation, <a href="https://www.healthdata.org" target="_blank" rel="noopener noreferrer">Institute for Health Metrics and Evaluation (IHME)</a></span></h3>
+            <p class="entry-dates">Summer 2025</p>
+          </div>
+          <ul class="entry-points">
+            <li>Produced subnational estimates of HIV prevalence, antiretroviral-therapy coverage, and viral-load suppression for Malawi and Zimbabwe by integrating PHIA, DHS, and AIS survey data.</li>
+            <li>Built reproducible pipelines and visualizations; conducted statistical, machine-learning, and forecasting analyses; documented legacy code and mapped the end-to-end workflow.</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-head">
+            <h3>Research Assistant <span class="entry-org">— Smith School of Business, Queen's University</span></h3>
+            <p class="entry-dates">May 2021 – Aug 2021</p>
+          </div>
+          <ul class="entry-points">
+            <li>Integrated and cleaned data from multiple sources, validated data quality, and communicated statistical findings through reproducible analysis in R and Stata.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="experience-section" aria-labelledby="teaching-heading">
+        <h2 id="teaching-heading">Teaching Experience</h2>
+        <article class="entry">
+          <div class="entry-head">
+            <h3>Instructor <span class="entry-org">— Intro to Microeconomics, University of Washington</span></h3>
+            <p class="entry-dates">Winter 2024</p>
+          </div>
+          <ul class="entry-points">
+            <li>Designed and delivered lectures on supply and demand, market equilibrium, consumer theory, and firm behavior; created assessments and held office hours.</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-head">
+            <h3>Teaching Assistant <span class="entry-org">— University of Washington</span></h3>
+            <p class="entry-dates">Sep 2022 – Present</p>
+          </div>
+          <ul class="entry-points">
+            <li>Courses: econometrics and data science; probability and statistics; introductory micro- and macroeconomics.</li>
+            <li>Taught R and Python labs on data cleaning, visualization, reproducible workflows, supervised learning, cross-validation, regularization, tree-based models, and neural networks.</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <div class="entry-head">
+            <h3>Teaching Assistant <span class="entry-org">— Managerial Economics (MBA), Queen's University</span></h3>
+            <p class="entry-dates">Jan 2021 – May 2021</p>
+          </div>
+          <ul class="entry-points">
+            <li>Led quiz and review sessions for MBA students, translating economic concepts for working professionals.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Khashayar Pourtaheri</span>
+      <a href="index.html">Home</a>
+    </footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </body>
+</html>
