@@ -22,20 +22,42 @@
     <main class="page narrow-page">
       <p class="eyebrow">Research</p>
       <h1>Research</h1>
-      <p class="intro">My research asks two kinds of questions: what happens when a policy changes, and when AI can be trusted to stand in for real people. I answer the first with causal inference on large administrative data, and the second with experiments that compare LLM personas with the people they are meant to represent.</p>
 
-      <section class="research-list" aria-label="Research projects">
+      <section class="research-section" aria-labelledby="jmp-heading">
+        <h2 id="jmp-heading">Job Market Paper</h2>
         <article>
-          <p class="project-label">Job market paper</p>
-          <h2>The Social Cost of Drug Decriminalization</h2>
+          <h3>The Social Cost of Drug Decriminalization: Overdoses, Crime, and Recriminalization in Oregon and Washington</h3>
           <p class="paper-meta">SSRN working paper, October 2026 · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7608641" target="_blank" rel="noopener noreferrer">Paper (SSRN)</a></p>
-          <p>What does society gain and lose when states reduce criminal penalties for drug possession? Using FBI arrest and crime records and CDC death records, I compare Oregon's and Washington's 2021 reforms with weighted comparison states using synthetic difference-in-differences. Drug-user arrests fall 68 percent, while overdose deaths rise 34 percent and property crime 17 percent. Restoring penalties in Washington brings arrests back but not deaths down. The net social cost reaches $26.6 billion by mid-2023, mostly from 1,971 excess deaths.</p>
+          <p class="paper-summary">Decriminalizing drug possession cut arrests sharply but left Oregon and Washington with a net social cost of $26.6 billion.</p>
+          <details>
+            <summary>Abstract</summary>
+            <p>What does society gain and lose when states reduce criminal penalties for drug possession? Using FBI arrest and crime records and CDC death records, I compare Oregon&#39;s and Washington&#39;s 2021 reforms with weighted comparison states that tracked them before 2021. Drug-user arrests fall 68 percent with no shift to other charges, while overdose deaths rise 34 percent and property crime 17 percent. Deaths rise in every comparison group, including groups matched on COVID, fentanyl&#39;s spread and state politics. Restoring penalties in Washington brings arrests back but not deaths down. Health and crime costs outweigh the gains from less enforcement: a net social cost of $26.6 billion by mid-2023, mostly from 1,971 excess deaths. The results show that reducing penalties for drug possession can cut arrests sharply and still leave society worse off.</p>
+          </details>
+        </article>
+      </section>
+
+      <section class="research-section" aria-labelledby="wp-heading">
+        <h2 id="wp-heading">Working Papers</h2>
+        <article>
+          <h3>Behavioral History Outperforms Descriptions of the Person for LLM Synthetic Personas</h3>
+          <p class="paper-meta">With <a href="https://azareei.github.io" target="_blank" rel="noopener noreferrer">Ahmad Zareei</a> · arXiv preprint, October 2026 · <a href="https://arxiv.org/abs/2610.03998" target="_blank" rel="noopener noreferrer">Paper (arXiv)</a></p>
+          <p class="paper-summary">LLM personas predict a person&#39;s choices far better from that person&#39;s past answers than from any description of who they are.</p>
+          <details>
+            <summary>Abstract</summary>
+            <p>Large language models (LLMs) are increasingly used as synthetic personas representing survey respondents. Their validity as substitutes for particular respondents depends on whether they reproduce individuals&#39; decisions. We examine what information helps synthetic respondents predict each individual&#39;s later choices, using five conditions that add progressively richer information: no personal information, demographics, personality traits, cognitive scores, and finally the respondent&#39;s earlier survey choices as behavioral history. We use a two-wave panel of 845 US adults who completed measures of 14 behavioral biases (spanning risk, time preferences, overconfidence, and reasoning), so each respondent&#39;s earlier answers provide a human test–retest benchmark; in the behavioral-history condition, all items that score the target bias are withheld. At the population level, the average number of biases per respondent in every condition is close to the human average (7.1–8.1 biases, against 7.1 for humans). This aggregate similarity masks differences in variance: persona descriptions recover only 53–67% of human between-person variation, whereas adding behavioral history restores it to approximately the human level. At the individual level, description-based personas achieve only 7–12% of the informedness observed in human test–retest responses, while adding behavioral history raises this to 28%. The condition including behavioral history has the highest estimated informedness in all 17 demographic groups, whereas description-based conditions provide little or no information for some groups. Synthetic responses also exhibit stronger education- and income-related differences than human responses. For LLM synthetic personas, a respondent&#39;s past answers add more to individual-level prediction than a description of who they are.</p>
+          </details>
+        </article>
+      </section>
+
+      <section class="research-section" aria-labelledby="wip-heading">
+        <h2 id="wip-heading">Work in Progress</h2>
+        <article>
+          <h3>The Effects of Common Ownership on Oligopoly</h3>
+          <p class="paper-summary">A contract-theory model of when common-ownership links can sustain collusive outcomes in product markets.</p>
         </article>
         <article>
-          <p class="project-label">Working paper</p>
-          <h2>Behavioral History Outperforms Descriptions of the Person for LLM Synthetic Personas</h2>
-          <p class="paper-meta">With <a href="https://azareei.github.io" target="_blank" rel="noopener noreferrer">Ahmad Zareei</a> · arXiv preprint, October 2026 · <a href="https://arxiv.org/abs/2610.03998" target="_blank" rel="noopener noreferrer">Paper (arXiv)</a></p>
-          <p>We build 4,225 synthetic personas with Claude, one for each of 845 U.S. adults under five nested information conditions, and test which information predicts each person's choices on 14 behavioral biases. Demographics, personality, and cognitive scores, even combined, reach only 7–12 percent of the human test–retest benchmark; adding the person's earlier answers raises this to 28 percent, the best in all 17 demographic groups. Population averages look right in every condition but hide individual-level failure.</p>
+          <h3>The Price Effect of the Salon Mechanism in a Freight Transportation Market</h3>
+          <p class="paper-summary">Uses 40 million bills of lading to estimate how a government-run queue mechanism changed freight prices.</p>
         </article>
       </section>
     </main>
