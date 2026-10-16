@@ -13,7 +13,7 @@ The site is published at `https://khashayar-pourtaheri.github.io/`. This root ad
 
 ## Update content
 
-- Edit `about.html` for the biography and contact details.
+- Edit `index.html` for the biography and contact details (`about.html` only redirects to the home page).
 - Edit `research.html` to add papers and working projects.
 - Replace `assets/files/Khashayar_Pourtaheri_CV.pdf` to update the CV. The web version omits the phone number.
 - Replace `assets/images/khashayar-pourtaheri.jpg` to update the portrait (keep the same filename).
